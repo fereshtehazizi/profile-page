@@ -1,4 +1,4 @@
-export default function TopHeader(name, username, avatarImage){
+export default function TopHeader({name, username, avatarImage}){
     return(
     <header className="topHeader">
         <div className="topHeaderInner">
